@@ -13,7 +13,7 @@ export const SocketProvider = (props) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const connection = io(process.env.SOCKET_URL);
+    const connection = io('https://vid-connect-socket-server.onrender.com/');
     console.log("socket connection", connection)
     setSocket(connection);
   }, []);
