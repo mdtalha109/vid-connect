@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import { cloneDeep } from 'lodash'
-import { useSocket } from '@/pages/context/socket'
+import { useSocket } from '@/context/socket'
 import { useRouter } from 'next/router'
 
 const usePlayer = (myId, roomId, peer) => {

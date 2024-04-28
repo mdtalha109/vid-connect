@@ -1,4 +1,4 @@
-import { useSocket } from "@/pages/context/socket"
+import { useSocket } from "@/context/socket"
 import { useRouter } from "next/router"
 
 const { useState, useEffect, useRef } = require("react")

@@ -12,7 +12,7 @@ import CopyRoomId from "@/component/CopyRoomId";
 
 import styles from "@/styles/room.module.css";
 import { useRouter } from "next/router";
-import { useSocket } from "./context/socket";
+import { useSocket } from "@/context/socket";
 
 const Room = () => {
   const socket = useSocket();
