@@ -1,5 +1,5 @@
 .homeContainer {
-    @apply w-4/12 mx-auto p-2 border border-black rounded mt-8 text-black flex flex-col items-center;
+    @apply md:w-4/12 w-[90vw] mx-auto p-2 border border-black rounded mt-8 text-black flex flex-col items-center;
   
     h1 {
       @apply text-xl text-center;
@@ -13,7 +13,7 @@
       @apply flex flex-col items-center mt-3 w-full;
   
       input {
-        @apply text-black text-lg p-1 rounded w-9/12 mb-3 border-black outline-black;
+        @apply text-black text-lg p-1 rounded w-9/12 mb-3 border-2 border-black outline-black;
       }
     }
   

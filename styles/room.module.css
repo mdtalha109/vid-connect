@@ -9,6 +9,25 @@
     @apply absolute flex flex-col overflow-y-auto;
     width: 200px;
     height: calc(100vh - 20px);
-    right: 20px;
+    /* right: 20px; */
     top: 20px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .playerScreen{
+      @apply flex flex-col
+    }
+
+    .activePlayerContainer {
+      @apply  relative w-[100vw]  h-[40vh] ;
+      margin-top: 0;
+      
+    }
+
+    .inActivePlayerContainer {
+      @apply relative w-full mt-0 h-[40vh];
+      /* right: 0; */
+      
+    }
   }
