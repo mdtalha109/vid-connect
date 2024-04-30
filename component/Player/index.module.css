@@ -1,5 +1,5 @@
 .playerContainer {
-    @apply relative overflow-hidden mb-5 h-full;
+    @apply relative overflow-hidden mb-5 h-full w-full;
   }
   
   .active {
@@ -8,20 +8,17 @@
   
   .notActive {
     @apply rounded-md h-min;
-    width: 200px;
+    /* width: 200px; */
     -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
   }
   
   .icon {
-    @apply text-white absolute right-2 bottom-2;
+    @apply  absolute right-2 bottom-2;
   }
   
-  .user {
-    @apply text-white;
-  }
-  
+
   .notPlaying {
     @apply flex items-center justify-center;
   }
